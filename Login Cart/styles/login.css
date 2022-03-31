@@ -1,0 +1,100 @@
+body{
+    background-color: transparent;
+    font-family: Avenir,serif;
+    color: #111d3c;
+    font-weight: 400;
+}
+#container{
+    display: flex;
+    width:500px;
+    margin: auto;
+    flex-direction: column;
+    border: 1px solid rgba(250, 244, 244, 0.2);
+    color: white;
+    pointer-events: auto;
+    background-clip: padding-box;
+    outline: 0;
+}
+#upcontainer{
+    background: #353e5f;
+    padding: 30px;
+}
+#loghead{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    font-size: 15px;
+    font-weight: 700;
+    border-bottom: 1px solid #fff;
+}
+#logheadleft{
+    color: white;
+    /* pointer-events: auto; */
+    display: block;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-weight: 700;
+    pointer-events: auto;
+    text-align: left;
+    box-sizing: border-box;
+}
+#logheadright{
+    cursor: pointer;
+    color: white;
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+}
+#logbody{
+    padding-top: 30px;
+    cursor: pointer;
+    display: block;
+    color: white;
+}
+#logbody1{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 35px;
+    margin-left: 4px;
+    text-align: left;
+    color: white;
+}
+#input{
+    margin-bottom: 11px;
+    margin:auto;
+    width: 100%;
+    font-size: 14px;
+    background-color: white;
+    font-weight: 500;
+    color: #505050;
+    border: none;
+    padding: 14px 13px 13px ;
+    border: none;
+}
+#logbody2{
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 38px;
+    margin-left: 4px;
+    text-align: left;
+    color: white;
+    
+}
+#button{
+ width: 100%;
+ padding: 14px 13px 13px 20px;
+ color: white;
+ background-color:black;
+ border: none;
+ font-weight: bold;
+ font-size: 14px;
+ border-radius:5px;
+
+
+}
+h5{
+    font-size: 14px;
+    padding: 3px;
+    color: white;
+}
