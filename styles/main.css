@@ -54,6 +54,72 @@
             height: 100%;
         }
 
+        #categories{
+            display: flex;
+            overflow: auto;
+            margin-left: 10%;
+            margin-right: 10%;
+            
+            
+        }
+        #categories>.items{
+            margin-top: 20px;
+            margin-right: 8%;
+            width: 30%;
+            height: 30px;
+            border-radius: 5px;
+            text-align: center;
+            /* border: solid 1px red; */
+        }
+
+        #categories>.items{
+            padding: 5px;
+            font-size: 16px;
+           
+        }
+        .items>a{
+            text-decoration: none;
+        }
+        #categories>.items:nth-child(1){
+            font-size: 16px;
+            background-color: rgb(102, 80, 154);
+
+        }
+        #categories>.items:nth-child(2){
+            font-size: 16px;
+            background-color: rgb(232, 244, 255);
+        }
+        #categories>.items:nth-child(3){
+            font-size: 16px;
+            background-color: rgba(45, 142, 123, 0.1);
+
+        }
+        #categories>.items:nth-child(4){
+            font-size: 16px;
+            color: rgb(232, 102, 105);
+            background-color: rgba(232, 102, 105, 0.1);
+        }
+        #categories>.items:nth-child(5){
+            font-size: 16px;
+            color: rgb(94, 147, 189);
+            background-color: rgba(94, 146, 189, 0.1);
+        }
+        .hair{
+            color: rgb(255, 255, 255);
+        }
+        .skin{
+            color: rgb(25, 100, 171);
+        }
+        .weight{
+            color: rgb(0, 112, 97);
+        }
+        .pcos{
+            color: rgb(232, 102, 105);
+        }
+        .care{
+            color: rgb(94, 147, 189);
+        }
+
 
         
         /* FOOTER STYLES */
