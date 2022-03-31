@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles/main.css">
+    
+</head>
+<body>
+    <div id="navContainer"> </div>  
+    <div id="categories">
+        <div class="items">
+            <a href="#" role="button" class="hair">Hair</a>
+        </div>
+        <div class="items">
+            <a href="#" role="button" class="skin">Skin</a>
+        </div>
+        <div class="items">
+            <a href="#" role="button" class="weight">Weight</a>
+        </div>
+        <div class="items">
+            <a href="#" role="button" class="pcos">PCOS</a>
+        </div>
+        <div class="items">
+            <a href="#" role="button" class="care">Feminine Care</a>
+        </div>
+
+    </div>
+</body>
+</html>
+<script type="module">
+    
+    import navbar from "/components/navbar.js";
+    var mynav=document.getElementById("navContainer")
+    mynav.innerHTML=navbar()
+
+    
+
+</script>
