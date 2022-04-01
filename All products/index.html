@@ -49,6 +49,175 @@
             padding: 10px 20px
             
         }
+        #hairDiv{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        width: 70%;
+    
+        margin: auto;
+        grid-gap: 30px;
+        }
+        #hairDiv>div>img{
+            width: 100%;
+            padding-left: -20px;
+            border-top-left-radius: 20.7439px;
+            border-top-right-radius: 20.7439px;
+            border-bottom-right-radius: 20.7439px;
+            border-bottom-left-radius: 20.7439px;
+            
+
+        }
+        #hairDiv>div{
+            margin-top: 30px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            border-radius: 20px;
+            text-align: left;
+            padding-left: 20px;
+            box-sizing: border-box;
+            
+            
+        }
+
+        button{
+            width:100%;
+            color:white;
+            font-size: 20px;
+            font-family: 20px Avenir serif;
+            background-color: rgb(102,80,154);
+            justify-content: center;
+            border-radius: 0 0 12px 12px;
+            margin-left: -20px;
+            border: none;
+            padding: 10px 20px
+            
+        }
+        #weightDiv{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        width: 70%;
+    
+        margin: auto;
+        grid-gap: 30px;
+        }
+        #weightDiv>div>img{
+            width: 100%;
+            padding-left: -20px;
+            border-top-left-radius: 20.7439px;
+            border-top-right-radius: 20.7439px;
+            border-bottom-right-radius: 20.7439px;
+            border-bottom-left-radius: 20.7439px;
+            
+
+        }
+        #weightDiv>div{
+            margin-top: 30px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            border-radius: 20px;
+            text-align: left;
+            padding-left: 20px;
+            box-sizing: border-box;
+            
+            
+        }
+
+        button{
+            width:100%;
+            color:white;
+            font-size: 20px;
+            font-family: 20px Avenir serif;
+            background-color: rgb(102,80,154);
+            justify-content: center;
+            border-radius: 0 0 12px 12px;
+            margin-left: -20px;
+            border: none;
+            padding: 10px 20px
+            
+        }
+        #pcosDiv{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        width: 70%;
+    
+        margin: auto;
+        grid-gap: 30px;
+        }
+        #pcosDiv>div>img{
+            width: 100%;
+            padding-left: -20px;
+            border-top-left-radius: 20.7439px;
+            border-top-right-radius: 20.7439px;
+            border-bottom-right-radius: 20.7439px;
+            border-bottom-left-radius: 20.7439px;
+            
+
+        }
+        #pcosDiv>div{
+            margin-top: 30px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            border-radius: 20px;
+            text-align: left;
+            padding-left: 20px;
+            box-sizing: border-box;
+            
+            
+        }
+
+        button{
+            width:100%;
+            color:white;
+            font-size: 20px;
+            font-family: 20px Avenir serif;
+            background-color: rgb(102,80,154);
+            justify-content: center;
+            border-radius: 0 0 12px 12px;
+            margin-left: -20px;
+            border: none;
+            padding: 10px 20px
+            
+        }
+
+        #feminineDiv{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        width: 70%;
+    
+        margin: auto;
+        grid-gap: 30px;
+        }
+        #feminineDiv>div>img{
+            width: 100%;
+            padding-left: -20px;
+            border-top-left-radius: 20.7439px;
+            border-top-right-radius: 20.7439px;
+            border-bottom-right-radius: 20.7439px;
+            border-bottom-left-radius: 20.7439px;
+            
+
+        }
+        #feminineDiv>div{
+            margin-top: 30px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            border-radius: 20px;
+            text-align: left;
+            padding-left: 20px;
+            box-sizing: border-box;
+            
+            
+        }
+
+        button{
+            width:100%;
+            color:white;
+            font-size: 20px;
+            font-family: 20px Avenir serif;
+            background-color: rgb(102,80,154);
+            justify-content: center;
+            border-radius: 0 0 12px 12px;
+            margin-left: -20px;
+            border: none;
+            padding: 10px 20px
+            
+        }
     </style>    
 </head>
 <body>
@@ -72,6 +241,10 @@
 
     </div>
     <div id="append"></div>
+    <div id="hairDiv"></div>
+    <div id="weightDiv"></div>
+    <div id="pcosDiv"></div>
+    <div id="feminineDiv"></div>
 </body>
 </html>
 <script src="./database/database.js"></script>
@@ -82,7 +255,7 @@
     mynav.innerHTML=navbar();
 
     
-    let skin = JSON.parse(localStorage.getItem("products"));
+    let skin = JSON.parse(localStorage.getItem("skinData"));
     window.addEventListener("load",myLoad)
     function myLoad(){
             skin.map(function(elem){
@@ -114,6 +287,167 @@
             appendDiv.append(div);
         })
     }
+
+    let hair = JSON.parse(localStorage.getItem("hairData"));
+    let ha = document.querySelector(".skin");
+    ha.addEventListener("click",myFunction)
+
+    function myFunction(){
+        let appendDiv = document.getElementById("append");
+        appendDiv.innerHTML = null;
+        hair.map(function(elem){
+            
+
+            let img = document.createElement("img");
+            img.src = elem.image;
+           
+
+            let title = document.createElement("h3");
+            title.innerText = elem.title;
+
+            let price = document.createElement("h3");
+            price.innerText = `₹ ${elem.price}`;
+            
+            let res = document.createElement("h3");
+            res.innerText = elem.for;
+
+            let ris = document.createElement("h3");
+            ris.innerText = elem.with;
+
+            let btn = document.createElement("button");
+            btn.innerText = "Add To Cart";
+
+            let div = document.createElement("div");
+
+            div.append(img,title,price,res,ris,btn);
+            let appendDiv = document.getElementById("hairDiv");
+            appendDiv.append(div);
+        })
+    }
+
+    let weight = JSON.parse(localStorage.getItem("weightData"));
+    
+    let we = document.querySelector(".weight");
+    we.addEventListener("click",myFunctionWe)
+    function myFunctionWe(){
+        let skinDiv = document.getElementById("append");
+        skinDiv.innerHTML = null;
+        let hairDiv = document.getElementById("hairDiv");
+        hairDiv.innerHTML = null;
+        weight.map(function(elem){
+            
+
+            let img = document.createElement("img");
+            img.src = elem.image;
+           
+
+            let title = document.createElement("h3");
+            title.innerText = elem.title;
+
+            let price = document.createElement("h3");
+            price.innerText = `₹ ${elem.price}`;
+            
+            let res = document.createElement("h3");
+            res.innerText = elem.for;
+
+            let ris = document.createElement("h3");
+            ris.innerText = elem.with;
+
+            let btn = document.createElement("button");
+            btn.innerText = "Add To Cart";
+
+            let div = document.createElement("div");
+
+            div.append(img,title,price,res,ris,btn);
+            let appendDiv = document.getElementById("weightDiv");
+            appendDiv.append(div);
+        })
+    }
+
+    let pcos = JSON.parse(localStorage.getItem("pcosData"));
+    
+    let pc = document.querySelector(".pcos");
+    pc.addEventListener("click",myFunctionPc)
+    function myFunctionPc(){
+        let skinDiv = document.getElementById("append");
+        skinDiv.innerHTML = null;
+        let hairDiv = document.getElementById("hairDiv");
+        hairDiv.innerHTML = null;
+        let weightDiv = document.getElementById("weightDiv");
+        weightDiv.innerHTML = null;
+        pcos.map(function(elem){
+            
+
+            let img = document.createElement("img");
+            img.src = elem.image;
+           
+
+            let title = document.createElement("h3");
+            title.innerText = elem.title;
+
+            let price = document.createElement("h3");
+            price.innerText = `₹ ${elem.price}`;
+            
+            let res = document.createElement("h3");
+            res.innerText = elem.for;
+
+            let ris = document.createElement("h3");
+            ris.innerText = elem.with;
+
+            let btn = document.createElement("button");
+            btn.innerText = "Add To Cart";
+
+            let div = document.createElement("div");
+
+            div.append(img,title,price,res,ris,btn);
+            let appendDiv = document.getElementById("pcosDiv");
+            appendDiv.append(div);
+        })
+    }
+
+    let feminine = JSON.parse(localStorage.getItem("feminineData"));
+    
+    let fe = document.querySelector(".care");
+    fe.addEventListener("click",myFunctionFe)
+    function myFunctionFe(){
+        let skinDiv = document.getElementById("append");
+        skinDiv.innerHTML = null;
+        let hairDiv = document.getElementById("hairDiv");
+        hairDiv.innerHTML = null;
+        let weightDiv = document.getElementById("weightDiv");
+        weightDiv.innerHTML = null;
+        let pcosDiv = document.getElementById("pcosDiv");
+        pcosDiv.innerHTML = null;
+        feminine.map(function(elem){
+            
+
+            let img = document.createElement("img");
+            img.src = elem.image;
+           
+
+            let title = document.createElement("h3");
+            title.innerText = elem.title;
+
+            let price = document.createElement("h3");
+            price.innerText = `₹ ${elem.price}`;
+            
+            let res = document.createElement("h3");
+            res.innerText = elem.for;
+
+            let ris = document.createElement("h3");
+            ris.innerText = elem.with;
+
+            let btn = document.createElement("button");
+            btn.innerText = "Add To Cart";
+
+            let div = document.createElement("div");
+
+            div.append(img,title,price,res,ris,btn);
+            let appendDiv = document.getElementById("feminineDiv");
+            appendDiv.append(div);
+        })
+    }
+
 
     
 
