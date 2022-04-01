@@ -1,0 +1,211 @@
+#append{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 70%;
+
+    margin: auto;
+    grid-gap: 30px;
+    }
+    #append>div>img{
+        width: 100%;
+        padding-left: -20px;
+        border-top-left-radius: 20.7439px;
+        border-top-right-radius: 20.7439px;
+        border-bottom-right-radius: 20.7439px;
+        border-bottom-left-radius: 20.7439px;
+        
+
+    }
+    #append>div{
+        margin-top: 30px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        border-radius: 20px;
+        text-align: left;
+        padding-left: 20px;
+        box-sizing: border-box;
+        
+        
+    }
+
+    button{
+        width:100%;
+        color:white;
+        font-size: 20px;
+        font-family: 20px Avenir serif;
+        background-color: rgb(102,80,154);
+        justify-content: center;
+        border-radius: 0 0 12px 12px;
+        margin-left: -20px;
+        border: none;
+        padding: 10px 20px
+        
+    }
+    #hairDiv{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 70%;
+
+    margin: auto;
+    grid-gap: 30px;
+    }
+    #hairDiv>div>img{
+        width: 100%;
+        padding-left: -20px;
+        border-top-left-radius: 20.7439px;
+        border-top-right-radius: 20.7439px;
+        border-bottom-right-radius: 20.7439px;
+        border-bottom-left-radius: 20.7439px;
+        
+
+    }
+    #hairDiv>div{
+        margin-top: 30px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        border-radius: 20px;
+        text-align: left;
+        padding-left: 20px;
+        box-sizing: border-box;
+        
+        
+    }
+
+    button{
+        width:100%;
+        color:white;
+        font-size: 20px;
+        font-family: 20px Avenir serif;
+        background-color: rgb(102,80,154);
+        justify-content: center;
+        border-radius: 0 0 12px 12px;
+        margin-left: -20px;
+        border: none;
+        padding: 10px 20px
+        
+    }
+    #weightDiv{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 70%;
+
+    margin: auto;
+    grid-gap: 30px;
+    }
+    #weightDiv>div>img{
+        width: 100%;
+        padding-left: -20px;
+        border-top-left-radius: 20.7439px;
+        border-top-right-radius: 20.7439px;
+        border-bottom-right-radius: 20.7439px;
+        border-bottom-left-radius: 20.7439px;
+        
+
+    }
+    #weightDiv>div{
+        margin-top: 30px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        border-radius: 20px;
+        text-align: left;
+        padding-left: 20px;
+        box-sizing: border-box;
+        
+        
+    }
+
+    button{
+        width:100%;
+        color:white;
+        font-size: 20px;
+        font-family: 20px Avenir serif;
+        background-color: rgb(102,80,154);
+        justify-content: center;
+        border-radius: 0 0 12px 12px;
+        margin-left: -20px;
+        border: none;
+        padding: 10px 20px
+        
+    }
+    #pcosDiv{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 70%;
+
+    margin: auto;
+    grid-gap: 30px;
+    }
+    #pcosDiv>div>img{
+        width: 100%;
+        padding-left: -20px;
+        border-top-left-radius: 20.7439px;
+        border-top-right-radius: 20.7439px;
+        border-bottom-right-radius: 20.7439px;
+        border-bottom-left-radius: 20.7439px;
+        
+
+    }
+    #pcosDiv>div{
+        margin-top: 30px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        border-radius: 20px;
+        text-align: left;
+        padding-left: 20px;
+        box-sizing: border-box;
+        
+        
+    }
+
+    button{
+        width:100%;
+        color:white;
+        font-size: 20px;
+        font-family: 20px Avenir serif;
+        background-color: rgb(102,80,154);
+        justify-content: center;
+        border-radius: 0 0 12px 12px;
+        margin-left: -20px;
+        border: none;
+        padding: 10px 20px
+        
+    }
+
+    #feminineDiv{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 70%;
+
+    margin: auto;
+    grid-gap: 30px;
+    }
+    #feminineDiv>div>img{
+        width: 100%;
+        padding-left: -20px;
+        border-top-left-radius: 20.7439px;
+        border-top-right-radius: 20.7439px;
+        border-bottom-right-radius: 20.7439px;
+        border-bottom-left-radius: 20.7439px;
+        
+
+    }
+    #feminineDiv>div{
+        margin-top: 30px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        border-radius: 20px;
+        text-align: left;
+        padding-left: 20px;
+        box-sizing: border-box;
+        
+        
+    }
+
+    button{
+        width:100%;
+        color:white;
+        font-size: 20px;
+        font-family: 20px Avenir serif;
+        background-color: rgb(102,80,154);
+        justify-content: center;
+        border-radius: 0 0 12px 12px;
+        margin-left: -20px;
+        border: none;
+        padding: 10px 20px
+        
+    }
