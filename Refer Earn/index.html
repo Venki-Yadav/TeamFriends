@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./refer.css">
+</head>
+<body>
+    <!-- navbar -->
+    <div id="navContainer"></div>
+
+    <!-- 1st part -->
+
+        <div id="box1">
+        <div id="box2">
+        <div id="box3">
+                <h1>Refer & Earn ₹100</h1>
+                    <p style="font-weight:bold">Hey, we know it feels great to be healthy. Pass it on and we’ll give you ₹100 in return</p>               
+                    <div id="button">
+                    <button id="button1" onClick="window.location.href='/Login Cart/login.html'">Invite Now</button>
+            </div>
+        </div>
+        <img src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_800,c_limit/v1625554051/New%20refer%20and%20earn/BW/Banner_Desktop.png"/>
+    </div>
+</div>
+
+<!-- 2nd part -->
+<div id="line">
+    <div id="line1"><a href="">Refer & Earn</a></div>
+    <div id="line1"><a href="">Your Progress</a></div>
+</div>
+
+<div>
+    <div id="row">
+        <div id="row1">
+                <div id="row2">
+                    <div id="row3">
+                        <h1>Your Earnings</h1>
+                        <p style="font-weight:bold">You're yet to tell your friends about your health & wellness secret!</p>               
+                    </div>
+                    <div id="row11">
+                        <span id="span1">₹</span>
+                        <span id="span2">0</span>
+                    </div>
+                </div>
+                <div id="row12"><button onclick="window.location.href='/Login Cart/login.html'">Refer Now</button>                </div>
+        </div>
+    </div>
+</div>
+
+<div id="footer"></div>
+
+</body>
+</html>
+
+<script>
+
+    import navbar from "/components/navbar.js";
+    var mynav=document.getElementById("navContainer")
+    mynav.innerHTML=navbar()
+
+    
+</script>

@@ -1,0 +1,152 @@
+/* div{
+    display: block;
+    box-sizing: border-box;
+} */
+
+#box1{
+    display:flex;
+    border:1px solid black;
+    background-color: rgb(128, 128, 247);
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+#box2{
+    width:100%;
+    text-align: center;
+    color: white;
+    padding: 20px 0px 0px 40px;
+
+    /* border:1px solid black; */
+}
+
+#box2{
+    padding-left:70px;
+    padding-top: 100px;
+    display:flex;
+    border:1px solid black;
+}
+
+#button{
+    padding-top: 30px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#button1{
+    width:100%;
+    height:60px;
+    background-color: black;
+    color:white;
+    font-weight:bold;
+    font-size: 20px;;
+    border-radius: 10px;
+    /* display: block; */
+}
+
+#line{
+    display: flex;
+    height:60px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    justify-content: center;
+}
+
+#line div{
+    cursor: pointer;
+    padding: 20px 20px 0;
+    font-weight: 500;
+    line-height: 27px;
+}
+
+#line1{
+    cursor: pointer;
+    font-size: 30px;
+}
+
+#row{
+    text-align: left;
+}
+
+#row1{
+    background: rgba(232, 102, 105, 0.1);
+    border-radius: 20px;
+    justify-content: space-between;
+    padding: 43px 60px 45px;
+    margin-left:100px;
+    margin-right:100px;
+
+    /* display: block; */
+    color: #111d3c;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+}
+
+#row2{
+    display: inline-block;
+    justify-content: space-between;
+    /* display: block; */
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    display: flex;
+}
+
+#row3{
+    display: block;
+    color: #111d3c;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+}
+
+#span1{
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    padding-top: 14px;
+    color: rgb(232, 102, 105);
+    /* box-sizing: border-box; */
+}
+
+#span2{
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 100px;
+    color:rgb(232, 102, 105);
+    text-align: left;
+}
+
+#row11{
+    color: rgb(232, 102, 105);
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+}
+#row12{
+font-weight: 400;
+line-height: 1.5;
+color: #212529;
+text-align: left;
+/* display: block; */
+}
+
+#row12 > button{
+    width:100%;
+    height: 50px;
+    background: #000;
+    border-radius: 12px;
+    width: 200px;
+    /* font-style: normal; */
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 27px;
+    color: #fff;
+    cursor: pointer;
+    /* margin: 0; */
+}
+
