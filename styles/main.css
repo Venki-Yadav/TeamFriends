@@ -76,6 +76,7 @@
             overflow: auto;
             margin-left: 10%;
             margin-right: 10%;
+            /* margin-top: 20px; */
             
             
         }
@@ -86,6 +87,7 @@
             height: 30px;
             border-radius: 5px;
             text-align: center;
+            margin-top: 10%;
             /* border: solid 1px red; */
         }
 
