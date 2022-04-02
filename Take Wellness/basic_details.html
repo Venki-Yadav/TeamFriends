@@ -63,7 +63,7 @@
     <button type="button" onClick="window.location.href='index.html'">
         <span class="glyphicon glyphicon-chevron-left"></span>Back
       </button> 
-    <button type="button">     
+    <button type="button" onClick="window.location.href='get.html'">     
            <span class="glyphicon glyphicon-chevron-right"></span>
     </button>
     </div>
@@ -91,3 +91,12 @@
 </div>
 </body>
 </html>
+
+<script>
+
+localStorage.setItem("data",JSON.stringify(box));
+
+let div = JSON.parse(localStorage.getItem("box"));
+
+
+</script>

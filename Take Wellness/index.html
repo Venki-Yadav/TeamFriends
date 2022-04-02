@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="./index.css">
     <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="/styles/footer.css">
+
 
 </head>
 <body>
@@ -62,7 +64,7 @@
 </div>
 
 
-<div id="footer"></div>
+<div class="footer" id="foot_cont"></div>
 </body>
 </html>
 
@@ -71,5 +73,9 @@
     import navbar from "/components/navbar.js";
     var mynav=document.getElementById("navContainer")
     mynav.innerHTML=navbar()
+
+    import footer from "/components/footer.js";
+    var myfooter=document.getElementById("foot_cont")
+    myfooter.innerHTML=footer()
 
 </script>
