@@ -1,0 +1,81 @@
+
+#searchBar {
+    width: 34%;
+    height: 92%;
+    margin-left: 31%;
+    background-color: white;
+    position: absolute;
+    top: 15px;
+    padding: 10px 15px;
+    border-radius: 4px;
+    overflow-y: scroll;
+  }
+  
+  #searchCartBtn {
+    display: flex;
+  }
+  #searchCartBtn #cartCount {
+    right: 45px;
+    top: 20px;
+    width: 8px;
+    height: 8px;
+  }
+  #searchInput {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #searchInput input {
+    color: rgb(36, 36, 36);
+    background-color: rgb(243, 243, 243);
+    border: none;
+    box-sizing: border-box;
+    width: 85%;
+    height: 43px;
+    padding-left: 20px;
+    border-radius: 21px;
+  }
+  #searchInput img {
+    width: 120%;
+  }
+  
+  #trendingPart {
+    margin-top: 5%;
+  }
+  
+  #trendingPart .material-icons {
+    font-size: 25px;
+    margin-top: 4px;
+    margin-right: 5px;
+    transform: rotate(-15deg);
+    color: #e86669;
+  }
+  .trending {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+  }
+  .trending span {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 120%;
+    color: #e86669;
+    padding: 8px 15px;
+    border: 1px solid rgba(232, 102, 105, 0.3);
+    box-sizing: border-box;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 0 5px 5px 0;
+  }
+  #darkBackground {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: rgba(15, 1, 1, 0.4);
+    opacity: 0.8;
+  }
+  #recProd img{
+      width: 100%;
+      height: 10%;
+
+  }
