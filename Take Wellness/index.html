@@ -49,7 +49,7 @@
 
     <!-- 2nd part -->
 <div id="next_back">
-    <button type="button">
+    <button type="button" onClick="window.location.href='/Home/index.html'">
         <span class="glyphicon glyphicon-chevron-left"></span>Back
       </button> 
     <button type="button" onClick="window.location.href='basic_details.html'">     
@@ -73,9 +73,5 @@
     import navbar from "/components/navbar.js";
     var mynav=document.getElementById("navContainer")
     mynav.innerHTML=navbar()
-
-    import footer from "/components/footer.js";
-    var myfooter=document.getElementById("foot_cont")
-    myfooter.innerHTML=footer()
 
 </script>
