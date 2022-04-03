@@ -1,0 +1,852 @@
+      
+       #container{
+            width: 70%;
+            margin: auto;
+            margin-top: 20px;
+            /* background-color: blanchedalmond; */
+            box-sizing: border-box;
+        }
+        #parent1{
+        /* background-color: red; */
+        /* justify-content: space-evenly; */
+        width: 100%;
+        box-sizing: border-box;
+        display: flex;
+        }
+        #leftBanner{
+        box-sizing: border-box;
+
+        }
+
+        #tittle{
+        font-size: 80px;
+
+        font-weight: 500;
+        font-family: Serifa;
+        box-sizing: border-box;
+        margin-bottom: 0px;
+        }
+        .subtitle{
+        font-size: 20px;
+        font-family: Avenir,serif;
+        line-height: 28px;
+        font-weight: 300;
+        letter-spacing: 0.25px;
+        color: rgba(0, 0, 0, 0.6);
+        padding-top: 5px;
+        }
+
+        #consult{
+        background-color:rgb(55,159,142);
+        width: 75%;
+        border-radius: 10px;
+        display: flex;
+        color: white;
+        justify-content: space-between;
+        margin-top: 30px;
+        }
+
+        #rightBanner{
+        display: flex;
+        box-sizing: border-box;
+        justify-content: space-between;
+        margin-left: 25px;
+        }
+
+        #rightConsult>img{
+        height: 100%;
+        width: 120px;
+
+        }
+        #leftConsult{
+        padding-bottom: 10px;
+        padding-left: 15px;
+
+        }
+        #bookButton{
+        padding: 10px;
+        width:100px;
+        font-weight: 600;
+        font-size: small;
+        color: white;
+        background-color: black;
+        border: none;
+        border-radius: 10px;
+        }
+        #imgone>img{
+        height: 100%;
+        width: 170Px;
+        border-radius: 30px;
+        border: 2px solid rgb(253,245,235);
+        }
+        #imgtwo img{
+        width: 150Px;
+        height: 48%;
+        margin-left: 25px;
+        border: 2px solid rgb(253,245,235);
+        border-radius: 20px;
+        }
+        #parent2{
+        box-sizing: border-box;
+        margin-top: 30px;
+        }
+        #parent2>div{
+        display: flex;
+        justify-content: space-between;
+        }
+        #parent2>div>a>img{
+        width: 160px;
+        height: 190px;
+        }
+        #parent3{
+        box-sizing: border-box;
+        margin-top: 50px;
+        }
+        #sellerButtons{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+        box-sizing: border-box;
+        }
+        #sellerButtons>button{
+        width: 140px;
+        padding: 15px;
+        border: none;
+        border-radius: 7px;
+        box-sizing: border-box;
+        }
+         #items{
+             box-sizing: border-box;
+             margin-top: 30px;
+             width: 100%;
+             height:300px;
+             background-color: rgb(182, 182, 201);
+         }
+
+         /* container2 */
+         #container2{
+            background-color:rgb(246,246,246);
+            width: 100%;
+            margin-top: 80px;
+            margin-left: 10px;
+            margin-bottom: 50px;
+            box-sizing: border-box;
+         }
+         #parent5{
+             width: 70%;
+             margin: auto;
+            display: flex;
+         }
+        
+         #docContent{
+             line-height: 15px;
+             padding:20px;
+            padding-top: 30px;
+         }
+         #docContent>p{
+            font-family: Avenir;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 22px;  
+         }
+         #docContent>a>button{
+                width: 250px;
+                padding: 15px;
+                border-radius: 20px;
+                border: none;
+                color: white;
+                background-color: black;
+         }
+         #docContent>a>button>h4{
+             margin: auto;
+             display: flex;
+             align-items: center;
+            justify-content: center;
+         }
+         #docimg>img{
+           height: 100%;
+           margin-left: 20px;
+         }
+         #container3{
+            box-sizing: border-box;
+            margin-top: 50px;
+
+         }
+         .header{
+           display: flex;
+           justify-content: space-between;
+           margin: 0px;
+           padding: 0px;
+           box-sizing: border-box;
+           background-color:rgba(46, 3, 82, 0.7);
+           width: 100%;
+            }
+            .headerText{
+               padding-top: 50px;
+                margin-left: 15%;
+                color: white;
+                box-sizing: border-box;
+               
+            }
+            .headerText>p{
+               font-size: medium;
+               opacity: 0.8;
+               font-size: large;
+            }
+            .headerText>a>button{
+                padding: 7px;
+                width: 100px;
+                border: none;
+                border-radius: 5px;
+                background-color: rgba(103, 43, 160, 0.699);
+                color: white;
+                box-sizing: border-box;
+                font-weight: 600;
+            }
+            #bagImage{
+                width: 33%;
+                height: 400px;
+                background:linear-gradient(to right,rgba(46, 3, 82, 0.7),rgba(46, 3, 82, 0.7),rgba(46, 3, 82, 0.7)),url(https://res.cloudinary.com/mosaic-wellness/image/upload/v1618311675/new%20home/image_24_1.png);
+               background-size:cover;
+            }
+            #parent6{
+                width: 70%;
+              
+               
+               box-sizing: border-box;
+                margin: auto;
+            }
+           #numbers{
+                display: flex;
+                box-sizing: border-box;
+                justify-content: space-between;
+                margin-top: -50px;
+            }
+            #number123{
+                padding: 10px;
+                padding-top: 0px;
+            }
+            #number123>h1{
+                font-size:70px;
+                /* font-family: Avenir-bold; */
+                color: #007061;
+            }
+            #parent7{
+                width: 70%;
+                height: 400px;
+                background-color: black;
+                margin: auto;
+                box-sizing: border-box;
+                margin-top: -90px;
+            }
+            #parent8{
+                box-sizing: border-box;
+                width: 70%;
+               
+                margin: auto;
+                margin-top: 70px;
+                /* background-color: aquamarine; */
+            }
+            #months{
+                box-sizing: border-box;
+                display: flex;
+                justify-content: space-between;
+                color: white;
+                margin-top: 30px;
+            }
+            #months>div{
+              
+                margin-right: 20px;
+                padding: 15px 10px 15px 10px;
+              
+                border-radius: 20px;
+            }
+            #months>div>p{
+                font-size: small;
+            }
+            #months>div:first-child{
+                background-color: rgb(140,121,185);
+            }
+            #months>div:nth-child(2)
+            {
+                background-color: rgb(111,87,168);
+            }
+            #months>div:last-child{
+               background-color: rgb(102,80,154);
+            }
+
+
+
+            /* background image 2 skin */
+            #header{
+                display: flex;
+                justify-content: space-between;
+                margin: 0px;
+                padding: 0px;
+                box-sizing: border-box;
+                background-color:rgb(114,147,195);
+                width: 100%;
+                 }
+                 #headerText{
+                    padding-top: 50px;
+                     margin-left: 15%;
+                     color: white;
+                     box-sizing: border-box;
+                     width: 35%;
+                   
+                 }
+                 #headerText>p{
+                    font-size: medium;
+                    opacity: 0.8;
+                    font-size: large;
+                 }
+                 #headerText>a>button{
+                     padding: 7px;
+                     width: 100px;
+                     border: none;
+                     border-radius: 5px;
+                     background-color: rgba(49, 117, 218, 0.87);
+                     color: white;
+                     box-sizing: border-box;
+                     font-weight: 600;
+                 }
+                 #bagImage2{
+                    width: 35%;
+                    height: 400px;
+                    background:linear-gradient(to right,rgba(4, 58, 138, 0.562),rgba(4, 68, 163, 0.562),rgba(4, 56, 199, 0.479)),url(  https://res.cloudinary.com/mosaic-wellness/image/upload/v1618391146/new%20home/image_24_3.png);
+                   background-size:cover;
+                }
+                #months2{
+                    box-sizing: border-box;
+                    display: flex;
+                    justify-content: space-between;
+                    color: white;
+                    margin-top: 30px;
+                }
+                #months2>div{
+                  
+                    margin-right: 20px;
+                    padding: 15px 10px 15px 10px;
+                  
+                    border-radius: 20px;
+                }
+                #months2>div>p{
+                    font-size: small;
+                }
+                #months2>div:first-child{
+                    background-color: rgb(92,163,229);
+                }
+                #months2>div:nth-child(2)
+                {
+                    background-color: rgb(46,117,184);
+                }
+                #months2>div:last-child{
+                   background-color: rgb(25,100,171)
+                   ;
+                }
+
+
+                 /* background image 3 nutrition */
+            #header3{
+                display: flex;
+                justify-content: space-between;
+                margin: 0px;
+                padding: 0px;
+                box-sizing: border-box;
+                background-color:rgba(8, 145, 120, 0.726);
+                width: 100%;
+                 }
+                 #headerText3{
+                    padding-top: 50px;
+                     margin-left: 15%;
+                     color: white;
+                     box-sizing: border-box;
+                     width: 35%;
+                   
+                 }
+                 #headerText3>p{
+                    font-size: medium;
+                    opacity: 0.8;
+                    font-size: large;
+                 }
+                 #headerText3>a>button{
+                     padding: 7px;
+                     width: 100px;
+                     border: none;
+                     border-radius: 5px;
+                     background-color:rgb(42,131,114);
+                     color: white;
+                     box-sizing: border-box;
+                     font-weight: 600;
+                 }
+                 #bagImage3{
+                    width: 38%;
+                    height: 400px;
+                    background:linear-gradient(to right,rgba(8, 145, 120, 0.726),rgba(3, 124, 102, 0.575),rgba(5, 141, 116, 0.623)),url( https://res.cloudinary.com/mosaic-wellness/image/upload/v1618462938/new%20home/image_24_6.png);
+                   background-size:cover;
+                }
+                #months3{
+                    box-sizing: border-box;
+                    display: flex;
+                    justify-content: space-between;
+                    color: white;
+                    margin-top: 30px;
+                }
+                #months3>div{
+                  
+                    margin-right: 20px;
+                    padding: 15px 10px 15px 10px;
+                  
+                    border-radius: 20px;
+                }
+                #months3>div>p{
+                    font-size: small;
+                }
+                #months3>div:first-child{
+                    background-color: rgb(0,178,155);
+                }
+                #months3>div:nth-child(2)
+                {
+                    background-color: rgb(0,128,110);
+                }
+                #months3>div:last-child{
+                   background-color: rgb(0,112,97)
+                   ;
+                }
+
+
+
+                 /* background image 4 pcos */
+            #header4{
+                display: flex;
+                justify-content: space-between;
+                margin: 0px;
+                padding: 0px;
+                box-sizing: border-box;
+                background-color:rgb(152,66,68,0.8);
+                width: 100%;
+                 }
+                 #headerText4{
+                    padding-top: 50px;
+                     margin-left: 15%;
+                     color: white;
+                     box-sizing: border-box;
+                     width: 38%;
+                   
+                 }
+                 #headerText4>p{
+                    font-size: medium;
+                    opacity: 0.8;
+                    font-size: large;
+                 }
+                 #headerText4>a>button{
+                     padding: 7px;
+                     width: 100px;
+                     border: none;
+                     border-radius: 5px;
+                     background-color:rgb(152,66,68);
+                     color: white;
+                     box-sizing: border-box;
+                     font-weight: 600;
+                 }
+                 #bagImage4{
+                    width: 30%;
+                    height: 400px;
+                    background:linear-gradient(to right,rgb(152,66,68,0.7),rgb(152,66,68,0.7),rgb(152,66,68,0.7)),url( https://res.cloudinary.com/mosaic-wellness/image/upload/v1618462951/new%20home/ava-sol-p8mdWsD6Rec-unsplash_1_1.png);
+                   background-size:cover;
+                }
+                #months4{
+                    box-sizing: border-box;
+                    display: flex;
+                    justify-content: space-between;
+                    color: white;
+                    margin-top: 30px;
+                }
+                #months4>div{
+                  
+                    margin-right: 20px;
+                    padding: 15px 10px 15px 10px;
+                  
+                    border-radius: 20px;
+                }
+                #months4>div>p{
+                    font-size: small;
+                }
+                #months4>div:first-child{
+                    background-color: rgb(241,167,169);
+                }
+               
+                #months4>div:last-child{
+                   background-color: rgb(235,122,125);
+                }
+         
+
+                 /* background image 5 Feminine */
+            #header5{
+                display: flex;
+                justify-content: space-between;
+                margin: 0px;
+                padding: 0px;
+                box-sizing: border-box;
+                background-color:rgb(94,147,189,0.9);
+                width: 100%;
+                 }
+                 #headerText5{
+                    padding-top: 50px;
+                     margin-left: 15%;
+                     color: white;
+                     box-sizing: border-box;
+                     width: 38%;
+                   
+                 }
+                 #headerText5>p{
+                    font-size: medium;
+                    opacity: 0.8;
+                    font-size: large;
+                 }
+                 #headerText5>a>button{
+                     padding: 7px;
+                     width: 100px;
+                     border: none;
+                     border-radius: 5px;
+                     background-color:rgb(37, 125, 197);
+                     color: white;
+                     box-sizing: border-box;
+                     font-weight: 600;
+                 }
+                 #bagImage5{
+                    width: 25%;
+                    height: 400px;
+                    background:linear-gradient(to right,rgba(84, 158, 218, 0.5),rgba(83, 168, 236, 0.5),rgba(90, 168, 231, 0.5)),url(https://res.cloudinary.com/mosaic-wellness/image/upload/v1618462960/new%20home/cdc-c4IBsSCuwIU-unsplash_1_1.png);
+                   background-size:cover;
+                }
+                #months5{
+                    box-sizing: border-box;
+                    display: flex;
+                    justify-content: space-between;
+                    color: white;
+                    margin-top: 30px;
+                    margin-bottom: 80px;
+                }
+                #months5>div{
+                  
+                    margin-right: 20px;
+                    padding: 15px 10px 15px 10px;
+                  
+                    border-radius: 20px;
+                }
+                #months5>div>p{
+                    font-size: small;
+                }
+                #months5>div:first-child{
+                    background-color: rgb(146,182,211);
+                }
+               
+                #months5>div:last-child{
+                   background-color: rgb(110,158,196);
+                }
+
+                /* your matter to us */
+
+                #parent9{
+                    width: 70%;
+                    margin: auto;
+                   
+                }
+                #youMatterHeadings{
+                    padding-right: 40%;
+                }
+                #youMatterHeadings>p{
+                    font-size: large;
+                }
+                #yourMatterImages{
+                    display: grid;
+                    grid-template-columns: repeat(3,1fr);
+                    gap: 20px;
+                    box-sizing: border-box;
+                    padding: 20px;
+                    padding-left: 0px;
+                    margin-bottom: 50px;
+                  
+                }
+                #yourMatterImages>div{
+                    border-radius: 15px;
+                    height: 280px;
+                    padding: 10px;
+                    box-sizing: border-box;
+                    
+                }
+               
+             
+                #yourmatterImg1{
+                   
+                    height: 50%;
+                    width: 100%;
+                   
+                }
+                #yourmatterImg1>img{
+                    width: 70px;
+                    height: 70px;
+                }
+             #yourmatterCont{
+                margin-left: 20px;
+                 height: 50%;
+                 width: 90%;
+                 display: flex;
+                 align-items: flex-end;
+                 color: white;
+                 line-height: 28px;
+             }
+            
+
+             /* Meet Our Experts */
+            .parent10{
+                 width: 70%;
+                 margin: auto;
+                 box-sizing: border-box;
+                 /* background-color: red; */
+                
+             }
+             #expertsHeadingas{
+               
+                 width: 70%;
+                 margin: auto;
+                 padding-left: 10px;
+             }
+             section{
+                 margin-bottom: 30px;
+             }
+            .card_content{
+                 display: flex;
+                 /* background-color: grey; */
+                 box-sizing: border-box;
+                 width: 300px;
+                 /* padding: 10px; */
+                 border-radius: 20px;
+               
+             }
+            .expert_image{
+                 box-sizing: border-box;
+                 padding: 20px;
+
+             }
+            
+            .expert_image>img{
+                 height: 70px;
+                 width: 70px;
+                 border: 2px solid teal;
+                border-radius: 20px;
+                box-sizing: border-box;
+             }
+             .swiper{
+                 width: 70%;
+                 box-sizing: border-box;
+             }
+             .expert_details>span>p{
+                 font-size: smaller;
+             }
+
+             /* customes rewies */
+
+             #CustomerReviewsSrolling{
+              display: grid;
+              /* background-color: red; */
+             
+              width: 70%;
+              margin: auto;
+              overflow: scroll;
+              overflow-x:scroll ;
+            grid-template-columns: repeat(6,1fr);
+              gap: 15px; 
+             }
+             #customer1{
+                box-sizing: border-box;
+                width: 400px;
+                padding: 10px;
+                border-radius: 20px;
+                 background-color:rgb(243,241,249);
+             }
+             #customer1Child1{
+                 display: flex;
+                 align-items: center;
+                 padding: 10px;
+              background-color: white;
+              border-radius: 20px;
+              box-sizing: border-box;
+             }
+             #customer1Child1>img{
+                 width: 80px;
+                 height: 80px;
+             }
+             #customer1Child2{
+                 /* background-color: blueviolet; */
+                padding: 10px;
+                box-sizing: border-box;
+                margin-top: -15px;
+                 
+             }
+             #customer1Child1>h4{
+                 margin-left: 20px;
+          
+             }
+        #amazingResultsHeadingas{
+          width: 70%;
+            margin: auto;
+           
+        }
+
+        /* before after results */
+        
+        #beforeAfter{
+            box-sizing: border-box;
+            margin: auto;
+            width: 70%;
+            /* height: 200px; */
+            /* width: 100%; */
+           margin-bottom: 40px;
+            display: grid;
+            grid-template-columns: repeat(6,1fr);
+            gap: 15px;
+            overflow: scroll;
+        }
+        #beforeAfterchild1{
+            box-sizing: border-box;
+            width: 365px;
+            /* height: 400px; */
+            display: flex;
+           
+            /* border-top-right-radius: 20px;
+            border-top-left-radius: 20px; */
+            box-sizing: border-box;
+            justify-content: space-between;
+            border-radius: 30px;
+           
+        }
+        #beforeImg{
+           box-sizing: border-box;
+            width: 180px;
+        }
+        #beforeImg>img{
+            width: 100%;
+            height: 180px;  
+        }
+        #beforeImg>div>h3{
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color:rgb(253,239,240);
+            margin-top: -5px;
+            padding: 10px;
+          
+            
+        }
+
+        /* refer and earn */
+
+        #referDiv{
+            width: 70%;
+            margin: auto;
+            height: 200px;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            background-color: rgb(246,246,246);
+        }
+        #referDetails{
+            width: 60%;
+            height: 100%;
+            /* background-color: red; */
+        }
+        #referImg{
+            width: 35%;
+            height: 100%;
+            /* background-color: red; */
+        }
+        #referImg>img{
+            width: 100%;
+            height: 100%;
+        }
+        #referDetails>a>button{
+           padding-left:15px;
+           padding-right: 15px;
+           padding-top: 5px;
+           padding-bottom: 5px;
+            background-color: black;
+            color: white;
+            border-radius: 15px;
+            border: none;
+        }
+
+        /* Delivery Instructions */
+
+        #delivery{
+            width: 70%;
+            margin: auto;
+            
+            /* background-color: blueviolet; */
+        }
+        #deliveryHeading{
+            /* background-color: aqua; */
+        }
+        #deliveryIcons{
+            /* background-color: red; */
+            /* height: 100px; */
+            /* width: 100%; */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            
+        }
+        #deliveryChild{
+            display: flex;
+            width: 45%;
+            align-items: center;
+            border-radius: 30px;
+            padding: 10px;
+           
+        }
+        #deliveryChild>div:first-child{
+            margin-right: 30px;
+        }
+        #deliveryChild>div>img{
+            width: 80px;
+            height: 40px;
+            margin-top: 10px;
+        }
+
+
+        /* payument options */
+
+        #PaymentOptions{
+            /* background-color: red; */
+            box-sizing: border-box;
+            /* height: 100px; */
+            width: 70%;
+            margin: auto;
+        }
+        #paymentHeadings{
+            /* background-color: blueviolet; */
+        }
+        #paymentsIcons{
+            display: grid;
+            grid-template-columns: repeat(7,1fr);
+            gap: 15px;
+            /* height: 100px; */
+            /* background-color: blanchedalmond; */
+        }
+        #paymentsIcons>div{
+          
+           
+            /* display: flex; */
+            align-items: centre;
+            padding: 10px;
+            border-radius: 20px;
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+            /* background-color: black; */
+        }
+        #paymentsIcons>div>img{
+            width: 100%;
+            height: 100%;
+
+        }
