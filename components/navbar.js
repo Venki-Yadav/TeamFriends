@@ -21,7 +21,7 @@
             <div id="header_controls" >
             
                             <div id="icons"><a href="/Login Cart/search.html"><img src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_48/v1603950724/staging/Home/Images/u_search.svg" alt=""></a></div>
-                            <div id="icons"><a href="/Login Cart/signup.html"><img src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_48/v1603950724/staging/Home/Images/u_user.svg" alt=""></a></div>
+                            <div id="icons"><a href="/Login Cart/login.html"><img src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_48/v1603950724/staging/Home/Images/u_user.svg" alt=""></a></div>
                             <div id="icons"><a href="https://api.whatsapp.com/send/?phone=917710096671&text=Hey%21+I+would+like+to+know+more+about+Bodywise.&app_absent=0"><img src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_48/v1603950724/staging/Home/Images/WhastApp.svg" alt=""></a></div>
                             <div id="icons"><a href="/Login Cart/cart.html"><img src="https://res.cloudinary.com/mosaic-wellness/image/upload/v1603950724/staging/Home/Images/u_shopping-bag.svg" alt="" width="24px" height="24px"></a></div>
                         </div>
