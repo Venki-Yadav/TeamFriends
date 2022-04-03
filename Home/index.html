@@ -712,6 +712,7 @@
           });
         </script>
             
+            <div id="footer"></div>
             </body>
             </html>
             <script type="module">
@@ -720,10 +721,12 @@
                 var mynav=document.getElementById("navContainer")
                 mynav.innerHTML=navbar()
 
-               
+                               
+                import footer from "/components/footer.js";
+                var footer_div=document.getElementById("footer")
+                footer_div.innerHTML=navbar()
 
-             
-               
+            
 
             </script>
 
