@@ -5,16 +5,220 @@
                 <meta charset="UTF-8">
                 <meta http-equiv="X-UA-Compatible" content="IE=edge">
                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                <title>Document</title>
+                <title>Home page</title>
                 <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
-                <link rel="stylesheet" href="/styles/main.css">
+                <!-- <link rel="stylesheet" href="/styles/main.css"> -->
                 <link rel="stylesheet" href="index.css">
-            
+                <link rel="stylesheet" href="./styles/footer.css">
+            <style>
+                        #navContainer{
+            background-color:  rgb(0,0,0);
+            box-sizing: border-box;
+            padding: 10px;
+            font-family: Avenir,serif;
+            width: 100%;
+            height: 100%;
+        }
+        #nav{
+            width: 85%;
+            height: 100%;
+            margin: auto;
+            display: flex;
+            box-sizing: border-box;
+            align-items: center;
+        }
+        #header_logo{
+            margin-right:50px;
+        }
+        #logoImage{
+            width: 140px;
+            height: 24px;
+        }
+        #header_menu{
+            display: flex; 
+            box-sizing: border-box;  
+            font-size: 14px;
+            align-items: center;
+        }
+        #header_menu>div{
+            margin-right: 20px;
+            color: white; 
+        }
+        #header_menu>div>a{
+            text-decoration: none;
+            color: white;
+        }
+        #header_controls{
+            display: flex;
+            box-sizing: border-box;
+            margin-left: 40px;
+            align-items: center;
+        }
+        #icons{
+            width: 20px;
+            height: 20px;
+            margin-right: 20px;
+        }
+        #icons>a>img{
+            width: 100%;
+            height: 100%;
+        }
+        
+
+        /* footer */
+
+        #footer_container{
+            width:100%;
+            height:600px;
+                background-color: rgb(0, 0, 0);
+                padding-top: 30px;
+                padding-right: 30px;
+                padding-bottom: 90px;
+                padding-left: 30px;
+                text-align: center;
+                border:1px solid black;
+        }
+        
+        .box1{
+            width: 100%;
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-right: auto;
+            margin-left: auto;   
+             /* border:1px solid white; */
+        }
+        
+        #footer_container .box1{
+            display: inline-block;
+        }
+        
+        #footer_container .box1 ul{
+            display: flex;
+            justify-content: center;
+            margin:20px;
+            padding-top: 15px;
+        
+        }
+        
+        #footer_container .box1 ul li{
+            margin: 0 15px;
+            list-style: disc;
+            color: white;
+            padding: 0 15px;
+        }
+        
+        #footer_container .box1 ul li:first-child{
+            list-style: none;
+        }
+        
+        #footer_container .box1 ul{
+            margin: 0 0 10px;
+        }
+        
+        #footer_container .box1 ul li{
+            margin-bottom:1px;
+        }
+        
+        #ul{
+            margin-bottom: 1px;
+        }
+        
+        #list{
+            display: list-item;
+        }
+        
+        #list a {
+            color: white;
+        }
+        
+        #footer_container .box1 #about{
+            width: 50%;;
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            margin: auto;
+            padding: 30px 0;
+            margin-top: 50px;
+            border-top: 1px solid white;
+            border-bottom: 1px solid white;
+            /* border:1px solid white; */
+        }
+        
+        #footer_container .box1 #about ul{
+            display: inline-block;
+        }
+        
+        #footer_container .box1 #about ul li{
+            list-style: none;
+        }
+        
+        #footer_container .box1 #about ul li:first-child{
+        margin: 0 0 20px
+        }
+        
+        #footer_container .box1 #about ul li a{
+            font-size: 16px;
+            list-style: none;
+        }
+        
+        
+        #footer_container .box1 #add{
+            width:100%;
+            /* border:1px solid black; */
+        }
+        
+        #footer_container .box1 #add #add1{
+            width:100%;
+            /* border:1px solid black; */
+        }
+        
+        #footer_container .box1 #add #add1 ul{
+            display: flex;
+            justify-content: center;
+            /* border:1px solid black; */
+        }
+        
+        #footer_container .box1 #add #add1 ul li{
+            margin: 0 30px;
+            list-style: none;
+            /* border:1px solid black; */
+        }
+        
+        #footer_container .box1 #add p{
+            color: white;
+            padding-top: 15px;
+        }
+            </style>
             </head>
             <body>
-                <div id="navContainer"> </div>  
+                <div id="navContainer">
+                    <div id="nav">
+                        <div id="header_logo" >
+                        <a href=""> <img id="logoImage" src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_800,c_limit/v1606295435/staging/Home/Images/bodywise-logo.png" alt="beBodywise"></a>
+                        </div>
+                        <!---->
+                  
+                        <div id="header_menu">
+                            <div><a href="/BookdoctorConsultation/new.html">Book Doctor Consultation</a></div>
+                            <div><a href="/Take Wellness/index.html">Take Wellness Assessment</a></div>
+                            <div><a href="/Choose Concern/index.html">Choose Concern</a></div>
+                            <div><a href="/All products/index.html">All Products</a></div>
+                            <div><a href="/Refer Earn/index.html">Refer & Earn</a></div>
+                        </div>
+                  
+                        <!---->
+                        <div id="header_controls" >
+            
+                            <div id="icons"><a href="search.html"><img src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_48/v1603950724/staging/Home/Images/u_search.svg" alt=""></a></div>
+                            <div id="icons"><a href="login.html"><img src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_48/v1603950724/staging/Home/Images/u_user.svg" alt=""></a></div>
+                            <div id="icons"><a href="https://api.whatsapp.com/send/?phone=917710096671&text=Hey%21+I+would+like+to+know+more+about+Bodywise.&app_absent=0"><img src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_48/v1603950724/staging/Home/Images/WhastApp.svg" alt=""></a></div>
+                            <div id="icons"><a href="cart.html"><img src="https://res.cloudinary.com/mosaic-wellness/image/upload/v1603950724/staging/Home/Images/u_shopping-bag.svg" alt="" width="24px" height="24px"></a></div>
+                        </div>
+                  </div>   
+                </div>  
 
                 <!-- HOME -->
+              
             <div id="container">
                     <!-- BANNER -->
                     <div id="parent1">
@@ -76,7 +280,9 @@
                         <button style="background-color:rgb(239,244,248) ;"   onclick="utifunction()">UTI</button>
                     </div>
                     
-                    <div id="items"></div>
+                    <div id="items">
+                        
+                    </div>
                 
                             <!-- here we need to append the data with respect to the catagories -->
                             
@@ -687,7 +893,11 @@
                     </div>
             </div>
         </div>
+
+        <!-- footer -->
+        <div id="footer_container_parent" style="margin-top: 70px;"></div>
      
+    </div>
 
       
 
@@ -716,11 +926,14 @@
             </html>
             <script type="module">
                 
-                import navbar from "/components/navbar.js";
-                var mynav=document.getElementById("navContainer")
-                mynav.innerHTML=navbar()
+                // import navbar from "/components/navbar.js";
+                // var mynav=document.getElementById("navContainer")
+                // mynav.innerHTML=navbar()
 
                
+                import footer from "/components/footer.js";
+                var myfooter=document.getElementById("footer_container_parent");
+                myfooter.innerHTML=footer()
 
              
                

@@ -10,12 +10,12 @@
             <!---->
 
             <div id="header_menu">
-                <div><a href="">Book Doctor Consultation</a></div>
-                <div><a href="">Take Wellness Assessment</a></div>
-                <div><a href="">Choose Concern</a></div>
-                <div><a href="">All Products</a></div>
-                <div><a href="">Refer & Earn</a></div>
-            </div>
+                            <div><a href="/BookdoctorConsultation/new.html">Book Doctor Consultation</a></div>
+                            <div><a href="/Take Wellness/index.html">Take Wellness Assessment</a></div>
+                            <div><a href="/Choose Concern/index.html">Choose Concern</a></div>
+                            <div><a href="/All products/index.html">All Products</a></div>
+                            <div><a href="/Refer Earn/index.html">Refer & Earn</a></div>
+                        </div>
 
             <!---->
             <div id="header_controls" >
