@@ -1,21 +1,731 @@
-<!--HOME/LANDING PAGE-->
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/styles/main.css">
-</head>
-<body>
-    <div id="navContainer"> </div>  
-</body>
-</html>
-<script type="module">
-    
-    import navbar from "/components/navbar.js";
-    var mynav=document.getElementById("navContainer")
-    mynav.innerHTML=navbar()
+            <!--HOME/LANDING PAGE-->
+            <!DOCTYPE html>
+            <html lang="en">
+            <head>
+                <meta charset="UTF-8">
+                <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Document</title>
+                <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+                <link rel="stylesheet" href="/styles/main.css">
+                <link rel="stylesheet" href="index.css">
+            
+            </head>
+            <body>
+                <div id="navContainer"> </div>  
 
-</script>
+                <!-- HOME -->
+            <div id="container">
+                    <!-- BANNER -->
+                    <div id="parent1">
+                        <!-- leftBanner -->
+                        <div id="leftBanner">
+                            <div id="tittle">Be Bodywise</div>
+                            <div class="subtitle">The wisdom to stop the experiments and get health &amp; wellness solutions from experts</div>
+                            <div id="consult">
+                                <div id="leftConsult">
+                                    <div> <h5 style="opacity: 0.8;">Begin your wellness journey with a</h5></div>
+                                    <div style="margin-top: -15px;"> <h3>Free Doctor consult</h3></div>
+                                    <div><a href=""><button id="bookButton">Book Now</button></a></div>
+                                </div>
+                                <div id="rightConsult">
+                                    <img src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto/v1611455725/Bodywise/Random/Rectangle_94.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- rightBanner -->
+                        <div id="rightBanner">
+                        <div id="imgone">
+                            
+                            <img src="https://res.cloudinary.com/mosaic-wellness/image/upload/v1618462482/new%20home/image_24_4.png" alt="">
+                        
+                        </div>
+                        <div id="imgtwo">
+                            <img src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_180,c_limit/v1617890609/staging/New%20category%20page%20banner/hair_1.png" alt="">
+                                <img src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_180,c_limit/v1617890609/staging/New%20category%20page%20banner/weight.png" alt="">
+                            </div>
+                            
+                        </div>
+                        </div>
+
+                    <!-- ITEMS -->
+                    <div id="parent2">
+                    <div>
+                        <a href=""> <img src="https://res.cloudinary.com/mosaic-wellness/image/upload/v1623302237/new%20home/Hair_Desktop_new.png" alt=""></a>
+                        <a href=""><img src="https://res.cloudinary.com/mosaic-wellness/image/upload/v1639992700/new%20home/Skin_Blue_Desktop.png" alt=""></a>
+                        <a href=""> <img src="https://res.cloudinary.com/mosaic-wellness/image/upload/v1636470038/new%20home/Nutrition_Desktop_new.png" alt=""></a>
+                        <a href=""> <img src="https://res.cloudinary.com/mosaic-wellness/image/upload/v1634886012/new%20home/UPDATED_PCOS/PCOS_Desktop_N2.png" alt=""></a>
+                        <a href=""><img src="https://res.cloudinary.com/mosaic-wellness/image/upload/v1623302237/new%20home/UTI_Desktop_new.png" alt=""></a>
+                    </div>
+                    </div>
+
+                    <!-- BEST SELLERS -->
+                    <div id="parent3">
+                        <h2>Best Sellers</h2>
+                        <h3 style="margin-top: -13px; opacity: 0.6;">Browse our best sellers by type of your concerns</h3>
+                    </div>
+
+                    <div id="parent4">
+                    <div id="sellerButtons">
+                        <button style="background-color: rgb(240,238,242);"   onclick="hairfunction()">Hair</button>
+                        <button  style="background-color: rgb(232,244,255);"  onclick="skinfunction()">Skin</button>
+                        <button style="background-color:rgb(232,244,255) ;"   onclick="nutritionfunction()">Nutrition</button>
+                        <button style="background-color:rgb(253,239,240) ;"   onclick="pcosfunction()">PCOS</button>
+                        <button style="background-color:rgb(239,244,248) ;"   onclick="utifunction()">UTI</button>
+                    </div>
+                    
+                    <div id="items"></div>
+                
+                            <!-- here we need to append the data with respect to the catagories -->
+                            
+                    </div>
+
+            </div>
+
+            <div id="container2">
+                <div id="parent5">
+                    <div id="docimg">
+                        <img src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto/v1611455725/Bodywise/Random/Rectangle_94.png" alt="">
+                    </div>
+                    <div id="docContent">
+                        <h1>Feeling confused?</h1>
+                        <p>Take a quick assessment co-created with our expert doctors</p>
+                        <a href=""><button><h4>Consult Doctor Now</h4></button></a>
+                    </div>
+                </div>
+            </div>
+            <!-- how it works -->
+                <div id="parent6">
+                    <div><h1>How It Works</h1></div>
+                    <div id="numbers">
+                        <div id="number123">
+                            <h1>01</h1>
+                            <h2>Health Assessment</h2>
+                            <p>Let us get to know you by asking a few questions. We will lay out actionable steps for you to achieve your wellness goals.</p>
+                        </div>
+                        <div id="number123">
+                            <h1>02</h1>
+                            <h2>Online Doctor Consultation</h2>
+                            <p>Get connected with a doctor to discuss your health concerns and understand the treatment options. Find products that are right for your needs.</p>
+                        </div>
+                        <div id="number123">
+                            <h1>03</h1>
+                            <h2>Instant Product Delivery</h2>
+                            <p>We know you’re busy. We will get your treatment shipped to your door in 3-5 days.</p>
+                        </div>
+                    </div>
+                </div>
+
+            <!-- background-images 1 Hair -->
+            <div id="container3">
+                <div class="header">
+                    <div class="headerText">
+                        <h1>Hair</h1>
+                        <p>Discover trichologist developed solutions that help address your <br> hair fall concerns and support further hair growth.</p>
+                        <a href=""><button>View All  ></button></a>
+                    </div>
+                    <div id="bagImage">
+                        <!-- <h1>bagImage fdnf fjf fgjhfgitr hfihtr fhgifrbrfhf </h1> -->
+                    </div>
+                </div>
+            </div>
+                     <!-- products -->
+                     <div id="parent7"><h1>venki</h1></div>
+
+                     <!-- what we expect -->
+
+                     <div id="parent8">
+                         <div><h2>What to expect?</h2></div>
+                         <div id="months">
+                             <div>
+                                <h3>1-2 months</h3>
+                                <p>There will likely be no visible change in the first two months. Some people may shed slightly more hair strands than before. This is temporary and absolutely normal.</p>
+                             </div>
+                             <div>
+                                <h3>3-6 months</h3>
+                                <p>At this point, it may become noticeable that hair loss has slowed, stopped, or in some cases maybe even reversed. Take a photo to track your progress.</p>
+                             </div>
+                             <div style="margin-right: 0px;">
+                                <h3>After 6+ months</h3>
+                                <p>There will likely be no visible change in the first two months. Some people may shed slightly more hair strands than before. This is temporary and absolutely normal.
+                         </div>
+                     </div>
+                </div>   
+
+        <!-- background-images 2 Skin -->
+        <div id="container3">
+            <div id="header">
+                <div id="headerText">
+                    <h1>Skin</h1>
+                    <p>Get clear, youthful looking skin with our dermatologist developed solutions for your acne and aging concerns</p>
+                    <a href=""><button>View All  ></button></a>
+                </div>
+                <div id="bagImage2">
+                    <!-- <h1>bagImage fdnf fjf fgjhfgitr hfihtr fhgifrbrfhf </h1> -->
+                </div>
+            </div>
+        </div>
+                 <!-- products -->
+                 <div id="parent7"><h1>venki</h1></div>
+
+                 <!-- what we expect -->
+
+                 <div id="parent8">
+                     <div><h2>What to expect?</h2></div>
+                     <div id="months2">
+                         <div>
+                            <h3>1-2 months</h3>
+                            <p>There will likely be no visible change in the first two months. Some people may shed slightly more hair strands than before. This is temporary and absolutely normal.</p>
+                         </div>
+                         <div>
+                            <h3>3-6 months</h3>
+                            <p>At this point, it may become noticeable that hair loss has slowed, stopped, or in some cases maybe even reversed. Take a photo to track your progress.</p>
+                         </div>
+                         <div style="margin-right: 0px;">
+                            <h3>After 6+ months</h3>
+                            <p>There will likely be no visible change in the first two months. Some people may shed slightly more hair strands than before. This is temporary and absolutely normal.
+                     </div>
+                 </div>
+            </div>   
+
+
+              <!-- background-images 3 Nutrition -->
+
+               <div id="container3">
+            <div id="header3">
+                <div id="headerText3">
+                    <h1>Nutrition</h1>
+                    <p>Achieve your body goals with our nutritionist developed supplemental solutions to aid your weight management journey - while maintaining a healthy lifestyle.</p>
+                    <a href=""><button>View All  ></button></a>
+                </div>
+                <div id="bagImage3">
+                    <!-- <h1>bagImage fdnf fjf fgjhfgitr hfihtr fhgifrbrfhf </h1> -->
+                </div>
+            </div>
+        </div>
+                 <!-- products -->
+                 <div id="parent7"><h1>venki</h1></div>
+
+                 <!-- what we expect -->
+
+                 <div id="parent8">
+                     <div><h2>What to expect?</h2></div>
+                     <div id="months3">
+                         <div>
+                            <h3>1-2 months</h3>
+                            <p>There will likely be no visible change in the first two months. Some people may shed slightly more hair strands than before. This is temporary and absolutely normal.</p>
+                         </div>
+                         <div>
+                            <h3>3-6 months</h3>
+                            <p>At this point, it may become noticeable that hair loss has slowed, stopped, or in some cases maybe even reversed. Take a photo to track your progress.</p>
+                         </div>
+                         <div style="margin-right: 0px;">
+                            <h3>After 6+ months</h3>
+                            <p>There will likely be no visible change in the first two months. Some people may shed slightly more hair strands than before. This is temporary and absolutely normal.
+                     </div>
+                 </div>
+            </div>   
+
+
+             <!-- background-images 4 pcos -->
+
+             <div id="container3">
+                <div id="header4">
+                    <div id="headerText4">
+                        <h1>PCOS</h1>
+                        <p>Restore hormonal imbalance and manage bloating, period cramps, stress and more with our period management range.</p>
+                        <a href=""><button>View All  ></button></a>
+                    </div>
+                    <div id="bagImage4">
+                        <!-- <h1>bagImage fdnf fjf fgjhfgitr hfihtr fhgifrbrfhf </h1> -->
+                    </div>
+                </div>
+            </div>
+                     <!-- products -->
+                     <div id="parent7"><h1>venki</h1></div>
+    
+                     <!-- what we expect -->
+    
+                     <div id="parent8">
+                         <div><h2>What to expect?</h2></div>
+                         <div id="months4">
+                            
+                             <div>
+                                <h3>3-6 months</h3>
+                                <p>At this point, it may become noticeable that hair loss has slowed, stopped, or in some cases maybe even reversed. Take a photo to track your progress.</p>
+                             </div>
+                             <div style="margin-right: 0px;">
+                                <h3>After 6+ months</h3>
+                                <p>There will likely be no visible change in the first two months. Some people may shed slightly more hair strands than before. This is temporary and absolutely normal.
+                         </div>
+                     </div>
+                </div>   
+
+
+                 <!-- background-images 5 Feminine -->
+
+             <div id="container3">
+                <div id="header5">
+                    <div id="headerText5">
+                        <h1>Feminine Care</h1>
+                        <p>Manage intimate hygiene, reduce UTI recurrence and improve gut health with our intimate care product range.</p>
+                        <a href=""><button>View All  ></button></a>
+                    </div>
+                    <div id="bagImage5">
+                        <!-- <h1>bagImage fdnf fjf fgjhfgitr hfihtr fhgifrbrfhf </h1> -->
+                    </div>
+                </div>
+            </div>
+                     <!-- products -->
+                     <div id="parent7"><h1>venki</h1></div>
+    
+                     <!-- what we expect -->
+    
+                     <div id="parent8">
+                         <div><h2>What to expect?</h2></div>
+                         <div id="months5">
+                            
+                             <div>
+                                <h3>3-6 months</h3>
+                                <p>At this point, it may become noticeable that hair loss has slowed, stopped, or in some cases maybe even reversed. Take a photo to track your progress.</p>
+                             </div>
+                             <div style="margin-right: 0px;">
+                                <h3>After 6+ months</h3>
+                                <p>There will likely be no visible change in the first two months. Some people may shed slightly more hair strands than before. This is temporary and absolutely normal.
+                         </div>
+                     </div>
+                </div>   
+            
+                <!-- You matter to us -->
+                <div id="parent9">
+                    <div id="youMatterHeadings">
+                        <h2>You matter to us</h2>
+                        <p>Be Bodywise believes that your health and wellness should be in your control. With the right guidance, you can conquer the chaos, on your terms.</p>
+                    </div>
+
+                    <div id="yourMatterImages">
+                        <div style="background-color: rgb(140,121,185);">
+                            <div id="yourmatterImg1"><img src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_150,c_limit/v1605619624/staging/Home/bodywise-values/Doctor-developed.png" alt=""></div>
+                           <div id="yourmatterCont"> <h3>Doctors Developed Science-Based Solutions </h3></div>
+                        </div>
+
+
+                        <div style="background-color:rgb(0,178,155) ;"> 
+                            <div id="yourmatterImg1"><img src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_150,c_limit/v1605619624/staging/Home/bodywise-values/Personalised-regime.png" alt=""></div>
+                           <div id="yourmatterCont"> <h3>Tailormade regimes to suit you perfectly </h3></div> 
+                        </div>
+                        <div style="background-color:rgb(25,100,171) ;"> 
+                            <div id="yourmatterImg1"><img src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_150,c_limit/v1605619624/staging/Home/bodywise-values/Digital-health-clinic.png" alt=""></div>
+                           <div id="yourmatterCont"> <h3>Extended care &amp; treatment with a team of specialists, qualified doctors </h3></div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+
+                <!-- Customer Reviews -->
+                <section>
+                    <div id="expertsHeadingas">
+                        <h2> Meet Our Experts</h2>
+                    </div>
+                <div class=" swiper mySwiper parent10">
+                    <div class="swiper-wrapper experts">
+                        <div class="swiper-slide card">
+                        <div class="card_content">
+                            <div class="expert_image">
+                                <img src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_400,c_limit/v1604583668/staging/Home/Images/Rectangle_56.jpg" alt="">
+                            </div>
+                            <div class="expert_details">
+                               <span> <h3>Dr. Sharmatha Kumar</h3></span>
+                               <span><p>Dr. Kumar is a practicing dermatologist with a decade of experience treating women. She specializes in aesthetic dermatology and hair restoration.</p></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--second carsd-->
+                    <div class="swiper-slide card">
+                        <div class="card_content">
+                            <div class="expert_image">
+                                <img src="https://res.cloudinary.com/mosaic-wellness/image/upload/v1621261618/Dr_Poonam_Mishra1.jpg" alt="">
+                            </div>
+                            <div class="expert_details">
+                               <span> <h3>Dr. Sharmatha Kumar</h3></span>
+                               <span><p>Dr. Kumar is a practicing dermatologist with a decade of experience treating women. She specializes in aesthetic dermatology and hair restoration.</p></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--3rd-->
+                    <div class="swiper-slide card">
+                        <div class="card_content">
+                            <div class="expert_image">
+                                <img src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_400,c_limit/v1604583668/staging/Home/Images/Rectangle_56-1.jpg" alt="">
+                            </div>
+                            <div class="expert_details">
+                               <span> <h3>Dr. Sharmatha Kumar</h3></span>
+                               <span><p>Dr. Kumar is a practicing dermatologist with a decade of experience treating women. She specializes in aesthetic dermatology and hair restoration.</p></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--4th card-->
+                    <div class="swiper-slide card">
+                        <div class="card_content">
+                            <div class="expert_image">
+                                <img src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_400,c_limit/v1604583668/staging/Home/Images/Rectangle_56-2.jpg" alt="">
+                            </div>
+                            <div class="expert_details">
+                               <span> <h3>Dr. Sharmatha Kumar</h3></span>
+                               <span><p>Dr. Kumar is a practicing dermatologist with a decade of experience treating women. She specializes in aesthetic dermatology and hair restoration.</p></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--5th card-->
+                    <div class="swiper-slide card">
+                        <div class="card_content">
+                            <div class="expert_image">
+                                <img src="https://res.cloudinary.com/mosaic-wellness/image/upload/v1621261618/Dr_Poonam_Mishra1.jpg" alt="">
+                            </div>
+                            <div class="expert_details">
+                               <span> <h3>Dr. Sharmatha Kumar</h3></span>
+                               <span><p>Dr. Kumar is a practicing dermatologist with a decade of experience treating women. She specializes in aesthetic dermatology and hair restoration.</p></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--3rd-->
+                    <div class="swiper-slide card">
+                        <div class="card_content">
+                            <div class="expert_image">
+                                <img src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_400,c_limit/v1604583668/staging/Home/Images/Rectangle_56-1.jpg" alt="">
+                            </div>
+                            <div class="expert_details">
+                               <span> <h3>Dr. Sharmatha Kumar</h3></span>
+                               <span><p>Dr. Kumar is a practicing dermatologist with a decade of experience treating women.</p></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--6th card-->
+                    <div class="swiper-slide card">
+                        <div class="card_content">
+                            <div class="expert_image">
+                                <img src="https://res.cloudinary.com/mosaic-wellness/image/upload/v1621261618/Dr_Poonam_Mishra1.jpg" alt="">
+                            </div>
+                            <div class="expert_details">
+                               <span> <h3>Dr. Sharmatha Kumar</h3></span>
+                               <span><p>Dr. Kumar is a practicing dermatologist with a decade of experience treating women.</p></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--3rd-->
+                    <div class="swiper-slide card">
+                        <div class="card_content">
+                            <div class="expert_image">
+                                <img src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_400,c_limit/v1604583668/staging/Home/Images/Rectangle_56-1.jpg" alt="">
+                            </div>
+                            <div class="expert_details">
+                               <span> <h3>Dr. Sharmatha Kumar</h3></span>
+                               <span><p>Dr. Kumar is a practicing dermatologist with a decade of experience treating women.</p></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </section>
+
+
+        <!-- Customer Reviews -->
+        <div id="expertsHeadingas">
+            <h2> Customer Reviews</h2>
+        </div>
+
+        <div id="CustomerReviewsSrolling">
+            <!-- customer1 -->
+          <div id="customer1">
+                <div id="customer1Child1">
+                    <img src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_150,c_limit/v1606489107/new%20home/reviews2.png">
+                    <h4>Clear Skin Edition</h4>
+                </div>
+   
+                <div id="customer1Child2" >
+                    <p>⭐⭐⭐⭐⭐</p>
+                    <p>Highly Effective</p>
+                    <p>Love my skin now! Thank you Be Bodywise. This kit is all you need in for your skin care routine. The 4 step regime is a wonderful way to mantain healthy andclear skin. My skin is prone to acne and I constantly struggle with breakouts. The acne face wash and gel have worked amazingly and the skin clarifying serum makes my skin so smooth.</p>
+                    <h4>Arpita Singh, Age 27</h4>
+                </div>
+               
+              
+            </div>
+
+            <!-- customer2 -->
+            <div id="customer1">
+                <div id="customer1Child1">
+                    <img src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_150,c_limit/v1606486889/new%20home/Hair-_gummies-_600X600.png">
+                    <h4>Hair Health Gummies</h4>
+                </div>
+   
+                <div id="customer1Child2" >
+                    <p>⭐⭐⭐⭐⭐</p>
+                    <p>Highly Effective</p>
+                    <p>Love my skin now! Thank you Be Bodywise. This kit is all you need in for your skin care routine. The 4 step regime is a wonderful way to mantain healthy andclear skin. My skin is prone to acne and I constantly struggle with breakouts. The acne face wash and gel have worked amazingly and the skin clarifying serum makes my skin so smooth.</p>
+                    <h4>Rupal Kumari, Age 31</h4>
+                </div>
+            </div>
+
+            <!-- customer3 -->
+            <div id="customer1">
+                <div id="customer1Child1">
+                    <img src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_150,c_limit/v1606488043/new%20home/Weight-Gummies_600x600.png">
+                    <h4>Active Assist Gummies</h4>
+                </div>
+   
+                <div id="customer1Child2" >
+                    <p>⭐⭐⭐⭐⭐</p>
+                    <p>Highly Effective</p>
+                    <p >Love my skin now! Thank you Be Bodywise. This kit is all you need in for your skin care routine. The 4 step regime is a wonderful way to mantain healthy andclear skin. My skin is prone to acne and I constantly struggle with breakouts. The acne face wash and gel have worked amazingly and the skin clarifying serum makes my skin so smooth.</p>
+                    <h4>Ahilya Gandhi, Age 28</h4>
+                </div>
+            </div>
+
+             <!-- customer4 -->
+          <div id="customer1">
+            <div id="customer1Child1">
+                <img src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_150,c_limit/v1606489107/new%20home/reviews2.png">
+                <h4>Clear Skin Edition</h4>
+            </div>
+
+            <div id="customer1Child2" >
+                <p>⭐⭐⭐⭐⭐</p>
+                <p>Highly Effective</p>
+                <p>Love my skin now! Thank you Be Bodywise. This kit is all you need in for your skin care routine. The 4 step regime is a wonderful way to mantain healthy andclear skin. My skin is prone to acne and I constantly struggle with breakouts. The acne face wash and gel have worked amazingly and the skin clarifying serum makes my skin so smooth.</p>
+                <h4>Arpita Singh, Age 27</h4>
+            </div>
+           
+          
+        </div>
+
+        <!-- customer5 -->
+        <div id="customer1">
+            <div id="customer1Child1">
+                <img src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_150,c_limit/v1606486889/new%20home/Hair-_gummies-_600X600.png">
+                <h4>Hair Health Gummies</h4>
+            </div>
+
+            <div id="customer1Child2" >
+                <p>⭐⭐⭐⭐⭐</p>
+                <p>Highly Effective</p>
+                <p>Love my skin now! Thank you Be Bodywise. This kit is all you need in for your skin care routine. The 4 step regime is a wonderful way to mantain healthy andclear skin. My skin is prone to acne and I constantly struggle with breakouts. The acne face wash and gel have worked amazingly and the skin clarifying serum makes my skin so smooth.</p>
+                <h4>Rupal Kumari, Age 31</h4>
+            </div>
+        </div>
+
+        <!-- customer6 -->
+        <div id="customer1">
+            <div id="customer1Child1">
+                <img src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_150,c_limit/v1606488043/new%20home/Weight-Gummies_600x600.png">
+                <h4>Active Assist Gummies</h4>
+            </div>
+
+            <div id="customer1Child2" >
+                <p>⭐⭐⭐⭐⭐</p>
+                <p>Highly Effective</p>
+                <p >Love my skin now! Thank you Be Bodywise. This kit is all you need in for your skin care routine. The 4 step regime is a wonderful way to mantain healthy andclear skin. My skin is prone to acne and I constantly struggle with breakouts. The acne face wash and gel have worked amazingly and the skin clarifying serum makes my skin so smooth.</p>
+                <h4>Ahilya Gandhi, Age 28</h4>
+            </div>
+        </div>   
+        </div>
+
+        <!-- Amazing Results -->
+        <div id="amazingResultsHeadingas" style="margin-top: 70px;">
+            <h2>Amazing Results</h2>
+            <p style="margin-top: -10px;">Our results speak for itself</p>
+        </div>
+        <div id="beforeAfter">
+            <!-- child1 -->
+            <div id="beforeAfterchild1">
+                <div id="beforeImg">
+                    <img style="border-top-left-radius: 20px;"  src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_400,c_limit/v1605618648/staging/Home/before-after/acne-scar-control-advanced-pack/before.jpg" alt="">
+
+                    <div style="color: rgb(234,116,119);background-color: bisque;"> <h3 >BEFORE</h3></div>
+                </div>
+
+                <div id="beforeImg">
+                    <img style="border-top-right-radius: 20px;"  src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_400,c_limit/v1605618648/staging/Home/before-after/acne-scar-control-advanced-pack/before.jpg" alt="">
+                   
+                    <div style="border-bottom-left-radius: 20px; color: rgb(55,159,142); background-color: rgb(235,245,243); "> <h3>AFTER</h3></div>
+                </div>
+            </div>
+
+             <!-- child2 -->
+             <div id="beforeAfterchild1">
+                <div id="beforeImg">
+                    <img style="border-top-left-radius: 20px;"  src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_400,c_limit/v1605618907/staging/Home/before-after/hair-restore-edition-1/Before.jpg" alt="">
+
+                    <div style="color: rgb(234,116,119);background-color: bisque;"> <h3 >BEFORE</h3></div>
+                </div>
+
+                <div id="beforeImg">
+                    <img style="border-top-right-radius: 20px;"  src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_400,c_limit/v1605618907/staging/Home/before-after/hair-restore-edition-1/After.jpg" alt="">
+                   
+                    <div style="border-bottom-left-radius: 20px; color: rgb(55,159,142); background-color: rgb(235,245,243); "> <h3>AFTER</h3></div>
+                </div>
+            </div>
+
+
+             <!-- child3 -->
+             <div id="beforeAfterchild1">
+                <div id="beforeImg">
+                    <img style="border-top-left-radius: 20px;"  src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_400,c_limit/v1605618906/staging/Home/before-after/clear-skin-edition-2/before.jpg" alt="">
+
+                    <div style="color: rgb(234,116,119);background-color: bisque;"> <h3 >BEFORE</h3></div>
+                </div>
+
+                <div id="beforeImg">
+                    <img style="border-top-right-radius: 20px;"  src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_400,c_limit/v1605618906/staging/Home/before-after/clear-skin-edition-2/after.jpg" alt="">
+                   
+                    <div style="border-bottom-left-radius: 20px; color: rgb(55,159,142); background-color: rgb(235,245,243); "> <h3>AFTER</h3></div>
+                </div>
+            </div>
+
+
+             <!-- child4 -->
+             <div id="beforeAfterchild1">
+                <div id="beforeImg">
+                    <img style="border-top-left-radius: 20px;"  src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_400,c_limit/v1605618904/staging/Home/before-after/skin-regenerate-night-cream/Before.jpg" alt="">
+
+                    <div style="color: rgb(234,116,119);background-color: bisque;"> <h3 >BEFORE</h3></div>
+                </div>
+
+                <div id="beforeImg">
+                    <img style="border-top-right-radius: 20px;"  src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_400,c_limit/v1605618904/staging/Home/before-after/skin-regenerate-night-cream/After.jpg" alt="">
+                   
+                    <div style="border-bottom-left-radius: 20px; color: rgb(55,159,142); background-color: rgb(235,245,243); "> <h3>AFTER</h3></div>
+                </div>
+            </div>
+
+
+             
+
+            
+
+
+        </div>
+
+        <div id="referDiv" style="margin-top: 100px;">
+            <div id="referDetails">
+                <h4>Refer & Earn</h4>
+                <h1>Refer your friends to Bodywise and get rewarded</h1>
+                <a href=""><button>Refer Now</button></a>
+            </div>
+            <div id="referImg">
+                <img src="https://res.cloudinary.com/mosaic-wellness/image/upload/v1602666576/referral-snippet/referralSnippetDesktop.svg" alt="">
+            </div>
+        </div>
+
+        <!-- Delivery Instructions -->
+        <div id="delivery" style="margin-top: 60px;">
+            <div id="deliveryHeading"><h2>Delivery Instructions</h2></div>
+            <div id="deliveryIcons">
+                  <!-- delivery child1 -->
+                <div id="deliveryChild" style="background-color: rgb(231,243,241);">
+                    <div>
+                        <img src="https://res.cloudinary.com/mosaic-wellness/image/upload/v1603435297/staging/Home/Images/cod-icn.png" alt="">
+                    </div>
+                    <div>
+                        <h4>COD Available</h4>
+                        <p style="margin-top: -15px; font-size: small; font-weight: 300;">Free shipping all over India</p>
+                    </div>
+                </div> 
+                <!-- delivery child2 -->
+                <div id="deliveryChild" style="background-color: rgb(252,236,237);">
+                    <div>
+                        <img src="https://res.cloudinary.com/mosaic-wellness/image/upload/v1603435297/staging/Home/Images/coupon-icn.png" alt="">
+                    </div>
+                    <div>
+                        <h4>20% Cashback</h4>
+                        <p style="margin-top: -15px; font-size: small; font-weight: 300;">When you place an order and pay online</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- payument options -->
+
+        <div id="PaymentOptions" style="margin-top: 70px;">
+            <div id="paymentHeadings">
+                <h2>Complete your payment using any of these payment options</h2>
+            </div>
+            <div id="paymentsIcons">
+                    <div>
+                        <img src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_200,c_limit/v1603435295/staging/Home/Images/amex-icn.png" alt="">
+                    </div>
+                    <div>
+                     <img src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_200,c_limit/v1603435295/staging/Home/Images/master-icn.png" alt="">
+                    </div>
+                    <div>
+                        <img src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_200,c_limit/v1603435295/staging/Home/Images/visa-icn.png" alt="">
+                    </div>
+                    <div>
+                        <img src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_200,c_limit/v1603435295/staging/Home/Images/bhim-icn.png" alt="">
+                    </div>
+                    <div>
+                        <img src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_200,c_limit/v1603435295/staging/Home/Images/gpay-icn.png" alt="">
+                    </div>
+                    <div>
+                        <img src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_200,c_limit/v1603435295/staging/Home/Images/netbanking-icn.png" alt="">
+                    </div>
+                    <div>
+                        <img src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_200,c_limit/v1603435295/staging/Home/Images/cash-icn.png" alt="">
+                    </div>
+            </div>
+        </div>
+     
+
+      
+
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+        <!-- Initialize Swiper -->
+        <script>
+          var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            slidesPerGroup: 3,
+            loop: true,
+            loopFillGroupWithBlank: true,
+            pagination: {
+              el: ".swiper-pagination",
+              clickable: true,
+            },
+            navigation: {
+              nextEl: ".swiper-button-next",
+              prevEl: ".swiper-button-prev",
+            },
+          });
+        </script>
+            
+            </body>
+            </html>
+            <script type="module">
+                
+                import navbar from "/components/navbar.js";
+                var mynav=document.getElementById("navContainer")
+                mynav.innerHTML=navbar()
+
+               
+
+             
+               
+
+            </script>
+
+
+          
